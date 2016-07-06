@@ -26,3 +26,8 @@ var every2 = evens.every(function (num) {
   console.log(every1)
   console.log(every2)
 
+//SOME
+
+ evens.some(function (num) {
+    return num % 4 === 0
+  })
